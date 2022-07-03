@@ -138,13 +138,13 @@ async def play(c: Client, m: Message):
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
                   [[
-                      InlineKeyboardButton("⏹", callback_data="cbstop"),
-                      InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton("⏭️", "skip"),
-                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                      InlineKeyboardButton("▢", callback_data="cbstop"),
+                      InlineKeyboardButton("II", callback_data="cbpause"),
+                      InlineKeyboardButton("‣‣", "skip"),
+                      InlineKeyboardButton("▷", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                      InlineKeyboardButton(text="✦ Support", url=f"https://t.me/UNIQUE_SOCIETY"),
+                      InlineKeyboardButton(text="Updates ✦", url=f"https://t.me/ITZZ_OFFICIAL"),
                   ],[
                       InlineKeyboardButton("🗑", callback_data="cls")],
                   ]
